@@ -4,7 +4,7 @@ This project implements a **complete end-to-end mobile robot navigation pipeline
 
 The focus of this project is on **algorithmic reasoning, system integration, and motion planning fundamentals**, rather than relying on existing ROS navigation stacks.
 
-![RRT* Navigation](images/projectz11.gif)
+![RRT* Navigation](images/projectz_11.gif)
 
 ---
 
@@ -122,6 +122,12 @@ This makes the planner’s safety assumptions explicit and helps explain:
 - **Executed Path** (`/executed_path`) — actual robot trajectory
 
 ---
+
+
+![RRT* Navigation](images/projectz_12.gif)
+
+![RRT* Navigation](images/projectz_13.gif)
+
 
 ## 📊 Results and Observations
 
