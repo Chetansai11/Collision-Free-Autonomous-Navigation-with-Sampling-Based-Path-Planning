@@ -1,0 +1,41 @@
+Panels:
+  - Class: rviz_default_plugins/ViewsPanel
+  - Class: rviz_default_plugins/SelectionPanel
+  - Class: rviz_default_plugins/DisplaysPanel
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Name: Robot Model
+      Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Robot Description: robot_description
+    - Name: TF
+      Class: rviz_default_plugins/TF
+      Enabled: true
+    - Name: Grid
+      Class: rviz_default_plugins/Grid
+      Enabled: true
+      Cell Count: 10
+      Plane: XY
+    - Name: Sim Markers
+      Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Topic: /sim_markers
+    - Name: Obstacles
+      Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Topic: /obstacles
+    - Name: Planned Path
+      Class: rviz_default_plugins/Path
+      Enabled: true
+      Topic: /planned_path
+      Color: 0.0; 0.0; 1.0
+    - Name: Executed Path
+      Class: rviz_default_plugins/Path
+      Enabled: true
+      Topic: /executed_path
+      Color: 1.0; 0.0; 0.0   # red line for actual trajectory
+
+  Global Options:
+    Fixed Frame: world
+    
