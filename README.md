@@ -4,6 +4,8 @@ This project implements a **complete end-to-end mobile robot navigation pipeline
 
 The focus of this project is on **algorithmic reasoning, system integration, and motion planning fundamentals**, rather than relying on existing ROS navigation stacks.
 
+![RRT* Navigation](images/projectz11.gif)
+
 ---
 
 ## 🚀 System Overview
